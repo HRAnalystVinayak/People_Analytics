@@ -1,5 +1,0 @@
-setup.py
-ML_PROJECT.egg-info/PKG-INFO
-ML_PROJECT.egg-info/SOURCES.txt
-ML_PROJECT.egg-info/dependency_links.txt
-ML_PROJECT.egg-info/top_level.txt
