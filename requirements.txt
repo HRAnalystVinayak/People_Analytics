@@ -5,5 +5,5 @@ streamlit
 plotly
 scikit-learn
 streamlit-option-menu
-
+seaborn
 
