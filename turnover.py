@@ -294,15 +294,13 @@ def turnover_tab(tabs):
                         2. **Date Range**: Select a specific date range
                         3. **Custom Period**: Choose a custom time period
                         """)
-                        
-                        # Method selection
                         filter_method = st.radio(
                             "Select Filter Method:",
                             ["Quick Filters", "Date Range", "Custom Period"],
                             horizontal=True,
                             help="Choose how you want to filter the time period"
                         )
-                        
+
                         if filter_method == "Quick Filters":
                             col_filter1, col_filter2 = st.columns(2)
                             with col_filter1:
@@ -318,8 +316,9 @@ def turnover_tab(tabs):
                                     "Select Month:",
                                     available_months,
                                     help="Choose a specific month or 'All' to see all months"
-                                )
-                            
+                                )              
+
+
                             df_filtered_attrition = df_attrition.copy()
                             filter_string = ""
                             if selected_year != "All":
