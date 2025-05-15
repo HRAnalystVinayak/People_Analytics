@@ -1,4 +1,3 @@
-
 import pandas as pd
 import streamlit as st
 from streamlit_option_menu import option_menu
@@ -7,8 +6,7 @@ from diversity_metrics import diversity_metrics
 from recruitment_metrics import recruitment_metrics
 from Engagement_metrics import Engagement_metrics
 from performance_metrics import performance_metrics
-
-
+from turnover_prediction import predict_turnover
 
 from EDA import EDA_Page                # make sure turnover_tab is defined in turnover.py
 
@@ -67,7 +65,7 @@ if selected == "Home":
             "Engagement and productivity trends",
             "Performance outcomes"
         ])
-        turnover_prediction(tabs)
+        predict_turnover(tabs)
         
         # Add logic or functions for predictive tabs
 
