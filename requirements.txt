@@ -7,4 +7,4 @@ scikit-learn
 streamlit-option-menu
 seaborn
 optuna
-
+xgboost
