@@ -8,3 +8,5 @@ streamlit-option-menu
 seaborn
 optuna
 xgboost
+lightgbm
+imblearn
